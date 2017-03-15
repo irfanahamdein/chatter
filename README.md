@@ -1,10 +1,13 @@
 # ChatTEr [Chat based TestEr]
 
-This is a ChatBot Which be used for driving testing operations from chat ,  
-currently supports below operations
+This is a ChatBot Which be used for driving testing operations from chat
 
+
+[![Build Status](https://travis-ci.org/notimewaste/chatter.svg?branch=master)](https://travis-ci.org/notimewaste/chatter)
+
+Currently supports below operations
 * Test Website with Selenium on headless Browser
-*
+
 
 ## Project  
 https://irfan.chandler.ai/chatter
@@ -139,7 +142,7 @@ $ rake rubocop
 * Use branches for every separate feature ,bug,ideas ,project
 
 ### Owner
-Email   : irfan.ahmad@chandler.ai  
+Email   : irfan@chandler.ai  
 Twitter : notimewaste
 
 ### UpComing Features

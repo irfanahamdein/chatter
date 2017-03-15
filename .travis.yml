@@ -1,0 +1,21 @@
+language: ruby
+
+rvm:
+  - 2.3.0
+
+gemfile:
+  - Gemfile
+
+services:
+  - docker
+
+before_install:
+  - gem install bundler
+
+script:
+  - bundle install
+  - rake spec
+
+branches:
+  only:
+    - master
