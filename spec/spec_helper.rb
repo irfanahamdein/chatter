@@ -1,5 +1,4 @@
 require 'simplecov'
-require 'coveralls'
 require 'pry'
 require 'lita/rspec'
 require 'simplecov-json'
@@ -10,8 +9,7 @@ SimpleCov.start
 SimpleCov.formatters = [
   SimpleCov::Formatter::HTMLFormatter,
   SimpleCov::Formatter::JSONFormatter,
-  SimpleCov::Formatter::RcovFormatter,
-  Coveralls::SimpleCov::Formatter
+  SimpleCov::Formatter::RcovFormatter
 ]
 
 require_relative '../handlers/test.rb'
