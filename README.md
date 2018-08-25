@@ -3,11 +3,11 @@
 This is a ChatBot Which be used for driving testing operations from chat ,  
 currently supports below operations
 
-* Test Website with Selenium on headless Browser
-*
+* Test Website with Selenium
+* Support to run CI Operations (Jenkins)
 
 ## Project  
-https://irfan.chandler.ai/chatter
+https://trello.com/b/K2rZlvfh/chatops-testing
 
 ## Pre-requisite and How to Setup
 
@@ -65,8 +65,8 @@ $ gem install bundler
 
 clone the repo and run bundle install ,all dependencies will be added
 ```
-$ git clone ssh://ubuntu@git.upgrad.com:2222/diffusion/14/chatops.git
-$ cd chatops
+$ git clone git@github.com:notimewaste/chatter.git
+$ cd chatter
 $ bundle install
 ```
 
@@ -93,12 +93,12 @@ $ lita start
 
 On slack , please type below
 ```
-raj, deploy <app> with <branch> on <env> please
+Chatter run <TEST_NAME> for <URL> on <HOST> please
 ```
 Example
 
 ```
-Chatter, Test http://irfan.chandler.ai with selenium on chrome please
+Chatter, run sanity for http://irfanahmad.in on saucelabs please
 ```
 
 ## Unit Tests
@@ -139,14 +139,13 @@ $ rake rubocop
 * Use branches for every separate feature ,bug,ideas ,project
 
 ### Owner
-Email   : irfan.ahmad@chandler.ai  
+Email   : irfan@chandler.ai  
 Twitter : notimewaste
 
 ### UpComing Features
 * Integration with Selenium for Web Testing
 * Integration with Appium and SauceLabs for Mobile App Testing
 * Support to  Test RESTful API's
-* Support to drive CI Operations
 
 ### Directory structure
 
