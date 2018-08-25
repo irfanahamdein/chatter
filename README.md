@@ -1,4 +1,4 @@
-# ChatTEr [Chat based TestEr]
+# Chater [Chat based tester bot]
 
 This is a ChatBot Which be used for driving testing operations from chat ,  
 currently supports below operations
