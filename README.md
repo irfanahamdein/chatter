@@ -1,6 +1,9 @@
 # Chater [Chat based tester bot]
 
-This is a ChatBot Which be used for driving testing operations from chat ,  
+This is a ChatBot Which be used for driving testing operations from chat
+
+[![Build Status](https://travis-ci.org/notimewaste/chatter.svg?branch=master)](https://travis-ci.org/notimewaste/chatter)    
+
 currently supports below operations
 
 * Test Website with Selenium
